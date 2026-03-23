@@ -68,7 +68,7 @@ function upload() {
 
                 return xhr;
             },
-            url: '/api/upload',
+            url: 'https://videy.co/api/upload',
             type: 'POST',
             context: this,
             data: formData,
